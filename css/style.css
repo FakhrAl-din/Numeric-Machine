@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ecf0f3;
+}
+
+
+.container{
+   width: 45%; 
+   height: 50vh;
+   padding: 10px;
+   /* background-color: red; */
+   box-shadow: 12px 12px 20px #cbced1,
+     -12px -12px 20px #ffffff;
+    border-radius: 8px;
+    user-select: none;  
+}
+
+
+
+.display #screen{
+    color: #4b4d4d;
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5rem;
+    background: #ecf0f3;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff ;
+    border-radius: 6px;
+   
+}
+
+
+.btns{
+    width: 100%;
+    margin-top: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+
+
+.btns .row button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    cursor: pointer;
+    transition: .1s;
+
+}
+
+.btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16 , 16,16,.1),
+    inset -5px -5px 8px  #ffff;
+    background: #fff;
+}
+
+#eval{
+   background-color: rgba(255, 68, 0, 0.815);
+   color: white;
+   transition: 0.1s linear;
+}
+
+
+#eval:hover{
+    box-shadow: inset 5px 5px 8px orangered ,
+    inset -5px -5px 8px  #ca4406;
+    background: #f13303;
+}
+
+#ce{
+    background-color: rgba(0, 0, 255, 0.548);
+    color: white;
+    transition: 0.1s;
+    
+}#ce:hover{
+    box-shadow: inset 5px 5px 8px rgb(45, 81, 243) ,
+    inset -5px -5px 8px  #06cac0;
+    background: #037ef1;
+}
+
+#ac{
+    background-color: rgba(87, 86, 86, 0.815);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .1s;
+}
+
+#ac:hover{
+    box-shadow: inset 5px 5px 8px rgb(93, 93, 94) ,
+    inset -5px -5px 8px  #414242;
+    background: #474747;
+}
